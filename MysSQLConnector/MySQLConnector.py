@@ -6,11 +6,9 @@ import MySQLdb
 
 # 链接mysql
 connOld = MySQLdb.connect(host="localhost", user="root", passwd="Zsh950618", db="nuistojv2", charset="utf8")
-connProblem = MySQLdb.connect(host="localhost", user="root", passwd="Zsh950618", db="tsoj", charset="utf8")
+connProblem = MySQLdb.connect(host="172.16.102.91", user="zsh", passwd="Zsh950618", db="tsoj", charset="utf8")
 cursorOld = connOld.cursor()
 cursorProblem = connProblem.cursor()
-
-
 
 # 查询
 
@@ -46,4 +44,12 @@ for problem in problems:
     # print memoryLimit, type(memoryLimit)
     args = (title, description, input, output, sampleInput, sampleOutput, timeLimit, memoryLimit, 1)
     cursorProblem.execute(insertIntoProblem, args)
+connProblem.commit()
+
+insertIntoExercise = "INSERT INTO exercise_problem (problemId, submitNumber, acceptNumber) \
+            VALUES (%s,%s,%s)"
+for problemId in range(1003, 1254):
+    print(problemId)
+    args = (problemId, 0, 0)
+    cursorProblem.execute(insertIntoExercise,args)
 connProblem.commit()
