@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1656b2a9-d6ee-4f61-93ee-142bbe37b51e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MysSQLConnector/ImportUser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py" afterPath="$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/import student/ImportUser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/database transfer/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/import lanqiao/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/import student/__init__.py" />
+      <change type="DELETED" beforePath="C:\Users\zsh\Documents\PycharmProjects\oj\MysSQLConnector\ImportUser.py" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\zsh\Documents\PycharmProjects\oj\MysSQLConnector\FindWord.py" afterPath="$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py" />
+      <change type="MOVED" beforePath="C:\Users\zsh\Documents\PycharmProjects\oj\MysSQLConnector\MySQLConnector.py" afterPath="$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py" />
+      <change type="MOVED" beforePath="C:\Users\zsh\Documents\PycharmProjects\oj\MysSQLConnector\WordReader.py" afterPath="$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py" />
+      <change type="MOVED" beforePath="C:\Users\zsh\Documents\PycharmProjects\oj\MysSQLConnector\__init__.py" afterPath="$PROJECT_DIR$/tsoj/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oj.iws" />
@@ -18,7 +26,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/oj$MySQLConnector.coverage" NAME="MySQLConnector Coverage Results" MODIFIED="1444307976730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
+    <SUITE FILE_PATH="coverage/oj$ImportUser.coverage" NAME="ImportUser Coverage Results" MODIFIED="1444351420293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
+    <SUITE FILE_PATH="coverage/oj$MySQLConnector.coverage" NAME="MySQLConnector Coverage Results" MODIFIED="1444353248589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$FindWord.coverage" NAME="FindWord Coverage Results" MODIFIED="1444288301664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$WordReader__1_.coverage" NAME="WordReader (1) Coverage Results" MODIFIED="1444292410248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$WordReader.coverage" NAME="WordReader Coverage Results" MODIFIED="1444287870332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
@@ -32,27 +41,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MySQLConnector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
+      <file leaf-file-name="MySQLConnector.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.54924875">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-                <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-                <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-                <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
+                <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+                <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+                <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+                <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImportUser.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MysSQLConnector/ImportUser.py">
+      <file leaf-file-name="ChangeFile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10016695">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImportUser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsoj/import student/ImportUser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#23#37#0" expanded="true" />
+                <marker date="1444351402528" expanded="true" signature="408:545" placeholder="insert into ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,20 +100,20 @@
         </entry>
       </file>
       <file leaf-file-name="FindWord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MysSQLConnector/FindWord.py">
+        <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="WordReader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MysSQLConnector/WordReader.py">
+        <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -114,8 +136,10 @@
       <list>
         <option value="$PROJECT_DIR$/MysSQLConnector/FindWord.py" />
         <option value="$PROJECT_DIR$/MysSQLConnector/WordReader.py" />
-        <option value="$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py" />
         <option value="$PROJECT_DIR$/MysSQLConnector/ImportExcel.py" />
+        <option value="$PROJECT_DIR$/MysSQLConnector/ImportUser.py" />
+        <option value="$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py" />
+        <option value="$PROJECT_DIR$/MysSQLConnector/ChangeFile.py" />
       </list>
     </option>
   </component>
@@ -279,8 +303,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,12 +331,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MysSQLConnector" />
+              <option name="myItemId" value="tsoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tsoj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database transfer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,6 +366,13 @@
     <property name="last_opened_file_path" value="C:/Python27/python.exe" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zsh\Documents\PycharmProjects\oj\tsoj\database transfer" />
+      <recent name="C:\Users\zsh\Documents\PycharmProjects\oj\tsoj\import student" />
+      <recent name="C:\Users\zsh\Documents\PycharmProjects\oj\tsoj\import lanqiao" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.MySQLConnector">
     <configuration default="false" name="MySQLConnector" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -394,6 +443,24 @@
       <module name="oj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MysSQLConnector/FindWord.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ImportUser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MysSQLConnector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MysSQLConnector/ImportUser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -586,18 +653,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.MySQLConnector" />
       <item index="1" class="java.lang.String" itemvalue="Python.WordReader" />
       <item index="2" class="java.lang.String" itemvalue="Python.WordReader (1)" />
       <item index="3" class="java.lang.String" itemvalue="Python.FindWord" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ImportUser" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.MySQLConnector" />
-        <item index="1" class="java.lang.String" itemvalue="Python.WordReader (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FindWord" />
-        <item index="3" class="java.lang.String" itemvalue="Python.WordReader" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ImportUser" />
+        <item index="2" class="java.lang.String" itemvalue="Python.WordReader (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.FindWord" />
+        <item index="4" class="java.lang.String" itemvalue="Python.WordReader" />
       </list>
     </recent_temporary>
   </component>
@@ -624,27 +693,33 @@
       <option name="project" value="LOCAL" />
       <updated>1444301154915</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="transfer databases">
+      <created>1444310854564</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1444310854564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3189018" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3368532" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13645834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -667,7 +742,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some test in mysql" />
     <MESSAGE value="test mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="test mysql" />
+    <MESSAGE value="transfer databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfer databases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -676,96 +752,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/import student/ImportUser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
+            <element signature="e#23#37#0" expanded="true" />
+            <marker date="1444351402528" expanded="true" signature="408:545" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/FindWord.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/MySQLdb/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/FindWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/FindWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/FindWord.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -773,11 +800,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/WordReader.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -797,24 +913,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/import student/ImportUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
-            <marker date="1444308159862" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
-            <marker date="1444308159862" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
-            <marker date="1444308159862" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
-            <marker date="1444308159862" expanded="true" signature="1447:1547" placeholder="INSERT INTO ..." />
+            <element signature="e#23#37#0" expanded="true" />
+            <marker date="1444351402528" expanded="true" signature="408:545" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MysSQLConnector/ImportUser.py">
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10016695">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.54924875">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1444353242840" expanded="true" signature="376:390" placeholder="select * fro..manageruser..." />
+            <marker date="1444353242840" expanded="true" signature="376:397" placeholder="select * fro..problem..." />
+            <marker date="1444353242840" expanded="true" signature="495:657" placeholder="INSERT INTO ..." />
+            <marker date="1444353242840" expanded="true" signature="1489:1589" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
