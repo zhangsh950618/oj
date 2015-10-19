@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1656b2a9-d6ee-4f61-93ee-142bbe37b51e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/database transfer/retest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tsoj/database transfer/from 91 to 99.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" afterPath="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py" afterPath="$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py" afterPath="$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oj.iws" />
@@ -19,14 +19,15 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/oj$MySQLConnector__1_.coverage" NAME="MySQLConnector (1) Coverage Results" MODIFIED="1444898961866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
+    <SUITE FILE_PATH="coverage/oj$MySQLConnector__1_.coverage" NAME="MySQLConnector (1) Coverage Results" MODIFIED="1445224554268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
     <SUITE FILE_PATH="coverage/oj$ImportUser.coverage" NAME="ImportUser Coverage Results" MODIFIED="1444351420293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$MySQLConnector.coverage" NAME="MySQLConnector Coverage Results" MODIFIED="1444353248589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$test_time.coverage" NAME="test time Coverage Results" MODIFIED="1444358996154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
     <SUITE FILE_PATH="coverage/oj$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1444463147606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/oj$manage.coverage" NAME="manage Coverage Results" MODIFIED="1444535250820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/PycharmProjects/web" />
+    <SUITE FILE_PATH="coverage/oj$from_91_to_99.coverage" NAME="from 91 to 99 Coverage Results" MODIFIED="1445230081543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
     <SUITE FILE_PATH="coverage/oj$retest.coverage" NAME="retest Coverage Results" MODIFIED="1444565436705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
-    <SUITE FILE_PATH="coverage/oj$ChangeFile.coverage" NAME="ChangeFile Coverage Results" MODIFIED="1444896441944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
+    <SUITE FILE_PATH="coverage/oj$ChangeFile.coverage" NAME="ChangeFile Coverage Results" MODIFIED="1445224025858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/database transfer" />
     <SUITE FILE_PATH="coverage/oj$WordReader__1_.coverage" NAME="WordReader (1) Coverage Results" MODIFIED="1444292410248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MysSQLConnector" />
     <SUITE FILE_PATH="coverage/oj$FindWord.coverage" NAME="FindWord Coverage Results" MODIFIED="1444378180227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/import lanqiao" />
     <SUITE FILE_PATH="coverage/oj$WordReader.coverage" NAME="WordReader Coverage Results" MODIFIED="1444543131211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tsoj/import lanqiao" />
@@ -40,37 +41,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MySQLConnector.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySQLConnector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03267974">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
-                <marker date="1444898949120" expanded="true" signature="414:435" placeholder="select * fro..problem..." />
-                <marker date="1444898949120" expanded="true" signature="1479:1655" placeholder="INSERT INTO ..." />
-                <marker date="1444898949120" expanded="true" signature="3774:3874" placeholder="INSERT INTO ..." />
+                <marker date="1445224547914" expanded="true" signature="417:438" placeholder="select * fro..problem..." />
+                <marker date="1445224547914" expanded="true" signature="1484:1660" placeholder="INSERT INTO ..." />
+                <marker date="1445224547914" expanded="true" signature="3845:3945" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py">
+      <file leaf-file-name="from 91 to 99.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tsoj/database transfer/from 91 to 99.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="retest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsoj/database transfer/retest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.39698493">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <marker date="1445230069245" expanded="true" signature="354:375" placeholder="select * fro..problem..." />
+                <marker date="1445230069245" expanded="true" signature="398:428" placeholder="select * fro..exercise_problem..." />
+                <marker date="1445230069245" expanded="true" signature="450:513" placeholder="insert into ..." />
+                <marker date="1445230069245" expanded="true" signature="536:584" placeholder="insert into ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +94,6 @@
         <option value="$PROJECT_DIR$/MysSQLConnector/MySQLConnector.py" />
         <option value="$PROJECT_DIR$/MysSQLConnector/ChangeFile.py" />
         <option value="$PROJECT_DIR$/tsoj/database transfer/test time.py" />
-        <option value="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" />
         <option value="$PROJECT_DIR$/tsoj/import lanqiao/FindWord.py" />
         <option value="$USER_HOME$/PycharmProjects/web/manage.py" />
         <option value="$USER_HOME$/PycharmProjects/web/calc/views.py" />
@@ -117,7 +112,9 @@
         <option value="$PROJECT_DIR$/tsoj/import lanqiao/WordReader.py" />
         <option value="$PROJECT_DIR$/tsoj/database transfer/re.py" />
         <option value="$PROJECT_DIR$/tsoj/database transfer/retest.py" />
+        <option value="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" />
         <option value="$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py" />
+        <option value="$PROJECT_DIR$/tsoj/database transfer/from 91 to 99.py" />
       </list>
     </option>
   </component>
@@ -282,7 +279,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -335,6 +331,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +351,7 @@
       <recent name="C:\Users\zsh\Documents\PycharmProjects\oj\tsoj\import lanqiao" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MySQLConnector (1)">
+  <component name="RunManager" selected="Python.from 91 to 99">
     <configuration default="false" name="retest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,26 +368,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsoj/database transfer/retest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test: " type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="web" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
       <method />
     </configuration>
     <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -443,6 +420,24 @@
       <module name="oj" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="from 91 to 99" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tsoj/database transfer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oj" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tsoj/database transfer/from 91 to 99.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -703,18 +698,18 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.web" />
       <item index="1" class="java.lang.String" itemvalue="Python.MySQLConnector (1)" />
       <item index="2" class="java.lang.String" itemvalue="Python.retest" />
-      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: " />
-      <item index="4" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="5" class="java.lang.String" itemvalue="Python.WordReader" />
-      <item index="6" class="java.lang.String" itemvalue="Python.ChangeFile" />
+      <item index="3" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.WordReader" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ChangeFile" />
+      <item index="6" class="java.lang.String" itemvalue="Python.from 91 to 99" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ChangeFile" />
-        <item index="1" class="java.lang.String" itemvalue="Python.retest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.WordReader" />
-        <item index="3" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="4" class="java.lang.String" itemvalue="Django tests.Test: " />
+        <item index="0" class="java.lang.String" itemvalue="Python.from 91 to 99" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ChangeFile" />
+        <item index="2" class="java.lang.String" itemvalue="Python.retest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.WordReader" />
+        <item index="4" class="java.lang.String" itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -765,7 +760,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444528670907</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MySQLConnector用于转移数据库&#10;import student用于导入学生数据">
+      <created>1444960740855</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1444960740855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -779,19 +780,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33896515" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33896515" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -811,7 +812,8 @@
     <MESSAGE value="transfer databases" />
     <MESSAGE value="change struct" />
     <MESSAGE value="over" />
-    <option name="LAST_COMMIT_MESSAGE" value="over" />
+    <MESSAGE value="MySQLConnector用于转移数据库&#10;import student用于导入学生数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQLConnector用于转移数据库&#10;import student用于导入学生数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,13 +822,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsoj/database transfer/test time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1158,7 +1153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tsoj/database transfer/retest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.39215687">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -1166,21 +1161,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tsoj/database transfer/ChangeFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19607843">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tsoj/database transfer/MySQLConnector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03267974">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
           <folding>
             <element signature="e#23#32#0" expanded="true" />
-            <marker date="1444898949120" expanded="true" signature="414:435" placeholder="select * fro..problem..." />
-            <marker date="1444898949120" expanded="true" signature="1479:1655" placeholder="INSERT INTO ..." />
-            <marker date="1444898949120" expanded="true" signature="3774:3874" placeholder="INSERT INTO ..." />
+            <marker date="1445224547914" expanded="true" signature="417:438" placeholder="select * fro..problem..." />
+            <marker date="1445224547914" expanded="true" signature="1484:1660" placeholder="INSERT INTO ..." />
+            <marker date="1445224547914" expanded="true" signature="3845:3945" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsoj/database transfer/from 91 to 99.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39698493">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <marker date="1445230069245" expanded="true" signature="354:375" placeholder="select * fro..problem..." />
+            <marker date="1445230069245" expanded="true" signature="398:428" placeholder="select * fro..exercise_problem..." />
+            <marker date="1445230069245" expanded="true" signature="450:513" placeholder="insert into ..." />
+            <marker date="1445230069245" expanded="true" signature="536:584" placeholder="insert into ..." />
           </folding>
         </state>
       </provider>

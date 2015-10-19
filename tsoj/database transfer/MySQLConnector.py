@@ -10,7 +10,7 @@ __author__ = 'zsh'
 
 
 # 链接mysql
-connOld = MySQLdb.connect(host="localhost", user="root", passwd="Zsh950618", db="nuistojv2", charset="utf8")
+connOld = MySQLdb.connect(host="172.16.102.91", user="zsh", passwd="Zsh950618", db="nuistojv2", charset="utf8")
 connProblem = MySQLdb.connect(host="172.16.102.91", user="zsh", passwd="Zsh950618", db="tsoj", charset="utf8")
 cursorOld = connOld.cursor()
 cursorProblem = connProblem.cursor()
@@ -22,14 +22,18 @@ sqlSearch = "select * from problem"
 cursorOld.execute(sqlSearch)
 connOld.close()
 rootdir = "C:\Users\zsh\Desktop\problem"
+
 for parent, dirnames, filenames in os.walk(rootdir):  # 三个参数：分别返回1.父目录 2.所有文件夹名字（不含路径） 3.所有文件名
-    for dir in dirnames:
-        os.rename(os.path.join(rootdir, dir), os.path.join(rootdir, str(int(dir) + 1000)))
     for filename in filenames:  # 输出文件信息
         if filename != 'in.1' and filename != 'out.1':
             print('delete file:', os.path.join(parent, filename))
             os.remove(os.path.join(parent, filename))
-            # print "the full name of the file is:" + os.path.join(parent, filename)  # 输出文件路径信息
+
+
+for parent, dirnames, filenames in os.walk(rootdir):  # 三个参数：分别返回1.父目录 2.所有文件夹名字（不含路径） 3.所有文件名
+    for dir in dirnames:
+        os.rename(os.path.join(rootdir, dir), os.path.join(rootdir, str(int(dir) + 1000)))
+
 for parent, dirnames, filenames in os.walk(rootdir):  # 三个参数：分别返回1.父目录 2.所有文件夹名字（不含路径） 3.所有文件名字
     for filename in filenames:  # 输出文件信息
         if filename == 'in.1':
@@ -101,16 +105,20 @@ for problem in problems:
     description = problem[1]
     input = problem[2]
     output = problem[3]
-    sampleInput = problem[4][:100:]
-    sampleOutput = problem[5][:100:]
+    sampleInput = problem[4]
+    sampleOutput = problem[5]
     if description != '' and title != '':
         args = (title, description, input, output, sampleInput, sampleOutput, timeLimit, memoryLimit, 1,
                 now + datetime.timedelta(seconds=count))
-        cursorProblem.execute(insertIntoProblem, args)
-        count += 1
-        # 对于测试数据转换格式
-        print(os.path.join(rootdir, str(pid)), 'to' , os.path.join(rootdir, str(1000+count)))
-        os.rename(os.path.join(rootdir, str(pid + 1000)), os.path.join(rootdir, str(1000+count)))
+        try:
+            cursorProblem.execute(insertIntoProblem, args)
+            count += 1
+            # 对于测试数据转换格式
+            # print(os.path.join(rootdir, str(pid)), 'to', os.path.join(rootdir, str(1000 + count)))
+            os.rename(os.path.join(rootdir, str(pid + 1000)), os.path.join(rootdir, str(1000 + count)))
+        except:
+            print(title)
+
 connProblem.commit()
 
 print('all problem is ', count)
