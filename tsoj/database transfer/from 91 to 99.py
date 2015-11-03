@@ -3,8 +3,8 @@ __author__ = 'zsh'
 import MySQLdb
 
 
-connlocal = MySQLdb.connect(host="localhost", user="root", passwd="Zsh950618", db="tsoj", charset="utf8")
-conn91 = MySQLdb.connect(host="172.16.102.91", user="zsh", passwd="Zsh950618", db="tsoj", charset="utf8")
+connlocal = MySQLdb.connect(host="172.16.102.91", user="zsh", passwd="Zsh950618", db="tsoj", charset="utf8")
+conn91 = MySQLdb.connect(host="localhost", user="root", passwd="Zsh950618", db="tsoj", charset="utf8")
 
 cursor91 = conn91.cursor()
 cursorlocal = connlocal.cursor()
