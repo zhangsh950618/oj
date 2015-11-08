@@ -18,7 +18,7 @@ sqlClear = 'SET foreign_key_checks=0;\
             truncate table tsoj.problem;\
             truncate table tsoj.exercise_problem;\
             ALTER TABLE tsoj.problem AUTO_INCREMENT = 1001;\
-            SET foreign_key_checks=0;'
+            SET foreign_key_checks=1;'
 cursor91.execute(sqlSearchProblem)
 cursorlocal.execute(sqlClear)
 

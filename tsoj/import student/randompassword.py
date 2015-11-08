@@ -12,7 +12,8 @@ import xlwt
 
 # python3中为string.ascii_letters,而python2下则可以使用string.letters和string.ascii_letters
 
-def GenPassword(length=8, chars=string.ascii_letters + string.digits):
+def GenPassword(length=8):
+    chars = 'abcdefghijkmnqrstuvwxyzABCDEFGHJKLMNQRSTUVWXY23456789'
     return ''.join([choice(chars) for i in range(length)])
 
 
